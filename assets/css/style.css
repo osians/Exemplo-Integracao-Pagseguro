@@ -1,0 +1,174 @@
+body{
+	font-family: "Source Sans Pro","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #666;
+    padding:10px 20px;
+}
+div.sysvendas-alertar-1,
+div.sysvendas-alertar-0{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+div.sysvendas-alertar-1{
+    background-color: #DFF0D4;
+    color:#2C7635;
+    border-color: #D6E9C4;
+}
+div.sysvendas-alertar-0{
+    background-color: #F2DEDC;
+    color:#AC260D;
+    border-color: #EBCCCF;
+}
+a:focus, input:focus{
+    outline: none;
+}
+/* PAGINA: PRODUTOS.PHP  */
+section.lista-produtos {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.produto {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  display: block;
+  border: 3px solid #fff;
+}
+div.produto:hover{
+    border: 3px solid #eee;
+}
+div.produto-imagem img {
+  max-width: 100%;
+}
+div.produto-info {
+  margin-top: auto;
+}
+div.produto-info h2{
+    font-size: 17px;
+    line-height: 1.375;
+}
+div.produto-info p{
+	font-size: 14px;
+}
+div.produto-info span{
+	font-size: 18px;
+    display: block;
+    margin: 10px 0px;
+}
+div.produto-info a.btn-add-carrinho:link,
+div.produto-info a.btn-add-carrinho:visited{
+	background-color: #7AB55C;
+	color:#fff;
+	text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+}
+div.produto-info a.btn-add-carrinho:hover{
+	background-color: #6DAA4D;
+}
+
+ul.menu-top-opcoes{list-style: none;margin:0;padding: 0;background-color: #EDEFF0;font-size: 14px;}
+ul.menu-top-opcoes li{display: inline;}
+ul.menu-top-opcoes li a:link,
+ul.menu-top-opcoes li a:visited{
+	text-decoration: none;
+	padding: 10px;
+    line-height: 36px;
+    color:#444444;
+}
+ul.menu-top-opcoes li a:hover{background-color: #7AB55C;color:#fff;}
+
+
+/* PAGINA: CARRINHO.PHP  */
+table, th, td {
+    border: 1px solid #D9D9D9;
+    border-collapse: collapse;
+}
+table.table-sysvendas-cart{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+table.table-sysvendas-cart thead tr th{
+    background-color: #D9D9D9;
+    line-height: 36px;
+    font-size: 14px;
+}
+table.table-sysvendas-cart tbody tr{
+    border-bottom: 1px solid #999999;
+}
+table.table-sysvendas-cart tbody tr td{
+    line-height: 30px;
+    padding: 10px 20px;
+}
+table.table-sysvendas-cart tbody tr td:last-child{
+    text-align: center;
+}
+table.table-sysvendas-cart tbody tr td a{
+    text-decoration: none;
+    color:#0077CF;
+}
+table.table-sysvendas-cart tbody tr td a:hover{
+    text-decoration: underline;
+}
+table.table-sysvendas-cart tfoot{
+    background-color: #D9D9D9;
+}
+table.table-sysvendas-cart tfoot tr td{
+    padding: 10px 20px;
+    color:#000;
+}
+table.table-sysvendas-cart tfoot tr td input{
+    border:none;
+    color:#0066CC;
+    font-size: 18px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    
+}
+table.table-sysvendas-cart tfoot tr td input:hover{
+    color:#FF4C00;
+}
+div.div-fechar-pedido{text-align: center;}
+input.btn-fc-enabled, input.btn-fc-disabled{
+    border:none;
+    padding: 15px 50px;
+    color:#fff;
+    text-transform: uppercase;
+}
+input.btn-fc-enabled{
+    background-color: #559911;
+    cursor: pointer;
+}
+input.btn-fc-enabled:hover{
+    background-color: #6FC717;
+}
+input.btn-fc-disabled{
+    background-color: #ccc;
+}
+/* PAGINA: FINALIZAR_COMPRA.PHP  */
+h1{text-decoration: underline;}
+table.sysv-confirmar-pedido{width: 100%;}
+table.sysv-confirmar-pedido tr th{font-weight: bold;text-align: left;padding:10px;}
+table.sysv-confirmar-pedido tr td{padding:10px;}
+input.cartend{
+    background-color: #559911;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    padding: 15px 50px;
+    text-transform: uppercase;
+}
+input.cartend:hover{
+    background-color: #6FC717;
+}
+a.link-setar-forma-envio:link,a.link-setar-forma-envio:visited{
+    background-color: #7AB55C;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    width:200px;
+    text-align: center;
+    border-radius: 3px;   
+}
+td.td-destaque{background-color: #F3F3F3;}
